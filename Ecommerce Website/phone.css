@@ -1,0 +1,18 @@
+/* Home */
+#home{
+    height: 500px;
+}
+.headings{
+    font-size: 1.5rem;
+}
+
+/* Contact */
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}

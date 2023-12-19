@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadgets-Sell</title>
+   <link rel="stylesheet" href="stylesheet.css">
+   <link rel="stylesheet"  media="screen and (max-width:800px)"  href="desktop.css">
+    <link rel="stylesheet"  media="screen and (max-width:530px)"  href="phone.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="button" onclick="validateForm()">Login</button>
+    </form>
+</div>
+<nav class="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+        <div class="main">
+           <h1 class="headings">Welcome to <br>GadgetHub</h1>
+            <button id="btn">
+                Explore!
+            </button>
+        </div>
+</section>
+<section id="services">
+    <h1 class="headings">Gadgets</h1>
+    <div class="row">
+        <div class="box">
+            <img src="img/img3.jpeg" alt="">
+            <h1 class="headings">Samsung</h1>
+            </div>
+        <div class="box">
+            <img src="img/img4.png" alt="">
+            <h1 class="headings">iPhone</h1>
+           </div>
+        <div class="box">
+            <img src="img/img5.jpg" alt="">
+            <h1 class="headings">Airbuds</h1>
+            </div>
+        <div class="box">
+            <img src="img/img6.jpg" alt="">
+            <h1 class="headings">Neckband</h1>
+            </div>
+    </div>
+</section> 
+
+<section id="contact">
+    <h1 class="headings">CONTACT ME</h1>
+    <form action="" class="form">
+        <input type="text" name="name" class="input" placeholder="Enter Your Name">
+        <input type="email" name="email" class="input" placeholder="Enter Your Email">
+        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+        <input type="submit" value="SEND" id="send">
+    </form>
+</section>
+<link rel="script" href="script.js">
+
+</body>
+</html>
